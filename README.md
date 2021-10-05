@@ -3,7 +3,7 @@ This is my second project of Loan Calculator without using bootstrap. I'll try t
 
 ## Screenshots
 
-<img src="../img/loan_calculator.png">
+<img src="./img/loan_calculator.png">
   
 ## Features
 
