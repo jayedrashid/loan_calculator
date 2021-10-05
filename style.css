@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,500;0,700;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #424242;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.card-content {
+    max-width: 600px;
+    padding: 15px 20px;
+    background: #303030; 
+    color: #fff; 
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+/* .input-label {
+    display: block;
+    font-size: 1.2rem;
+} */
+
+.loan-group {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.amount-input, .interest-input, .years-input {
+    width: 100%;
+    padding: 10px;
+}
+
+img {
+    margin: auto 230px;
+    width: 80px;
+}
+
+/* Loading & Results Off */
+.loading, .results {
+    display: none;
+}
+
+.results {
+    max-width: 600px;
+    padding: 15px 20px;
+    background: #212121; 
+    color: #fff; 
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-calculate {
+    display: inline-block;
+    color: #fff;
+    background-color: #93cb53;
+    width: 25%;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-calculate:hover {
+    background-color: #7ab436;
+}
+
+.monthly-payment, .total-payment, .total-interest {
+    width: 100%;
+    padding: 10px;
+}
+
+
